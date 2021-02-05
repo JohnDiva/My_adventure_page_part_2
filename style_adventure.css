@@ -1,0 +1,208 @@
+
+
+.head {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    padding-bottom: 80px;
+    margin-top: 0;
+    padding-top:0;
+    
+}
+
+header {
+    width:1364px;
+    height:150px;
+    background-color: rgba(20, 57, 177, 0.5);
+    display:block;
+}
+
+body {
+    background-image:url("home.jpg");
+    background-repeat: no-repeat;
+    background-size:1410px 800px;
+
+}
+
+
+h1 {
+    text-align: center;
+    color:black;
+    font-size:300%;
+}
+
+.nav {
+    width:1364px;
+    height:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:12px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    background-color: rgb(245, 245, 235);
+    margin-top:0;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav .home, .nav .contact, .nav .about {
+    padding-left: 10px;
+}
+
+.point {
+    font-size: 90%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+
+}
+h2 {
+    color:rgb(5, 5, 5);
+    text-align: center;
+    font-family: cursive;
+}
+
+.box {
+    height:150px;
+    width:300px;
+    background-color:rgba(191, 199, 223, 0.8);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+    
+p {
+    font-weight: 600;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 120px;
+}
+
+.a {
+    background-color: rgb(2, 99, 15);
+    padding:10px 10px 10px 10px;
+    font-weight: 500;
+    font-family: "IM Fell Double Pica";
+    color:wheat;
+    border:solid rgba(20, 57, 177, 0.5);
+    border-width: 3px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+a:hover {
+    background-color: rgb(253, 253, 13);
+    color:black;
+    transition: all 1s linear;
+}
+
+a:active {
+    background-color: blueviolet;
+}
+
+.box .imag {
+    opacity: 0.5;
+}
+
+.box .imag:hover {
+     opacity: 1;
+     transition: all 2s linear;
+}
+
+@media screen and (min-width:600px) and 
+       (max-width:800px) {  
+        
+        .head {
+            display:flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content:flex-start;
+            padding-bottom: 80px;
+            margin-top: 0;
+            padding-top:0;
+        }
+        
+        h1 {
+            text-align: left;
+            color:rgb(82, 9, 9);
+            font-size:300%;
+        }
+
+        h2 {
+            color:rgb(65, 4, 4);
+            text-align: start;
+            font-family:cursive;
+        }
+
+        p {
+            color: blue;
+            font-size: 100%;
+        }
+        .box {
+            height:120px;
+            width:250px;
+            background-color:rgba(191, 199, 223, 0.8);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        }
+@media (max-width:559px) {
+
+    p {
+       color: black;
+       font-size:85%;
+    }
+
+    .point {
+        display:flex;
+        align-content: space-around;
+    }
+    .box {
+        height:100px;
+        width:200px;
+        background-color:rgba(191, 199, 223, 0.8);
+        border-radius: 20px;
+        overflow: hidden;
+}
+    .body {
+        background-image: url("home.jpg");
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+
+    .head {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start;
+        padding-bottom: 80px;
+        margin-top: 0;
+        padding-top:0;
+    }
+    
+    h1 {
+        text-align: left;
+        color:black;
+        font-size:300%;
+    }
+
+    h2 {
+        color:black;
+        text-align: start;
+        font-family:cursive;
+    }
+}   
